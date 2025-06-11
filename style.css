@@ -1,0 +1,105 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(2px);
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000000;
+  padding: 5px 15px !important;
+  border-radius: 20px;
+}
+.nav-link {
+  color: #000000 !important;
+  border-radius: 25px;
+  margin-right: 10px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  backdrop-filter: blur(2px);
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.354) !important;
+}
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.153) !important;
+  color: #000000 !important;
+  transform: translateY(-1px);
+  box-shadow: 0px 0px 3px #ffffff;
+}
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.151) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.dropdown-item {
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-radius: 1px;
+  transition: all 0.8ms ease;
+}
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.557) !important;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+.glass-container {
+  background-color: rgba(255, 255, 255, 0.103) !important;
+  backdrop-filter: blur(2px);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+}
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.068) !important;
+  backdrop-filter: blur(2px) !important;
+  border-radius: 15px;
+  padding-right: 2px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+.glass-effect {
+  background-color: rgba(205, 7, 7, 0);
+  backdrop-filter: blur(2 px);
+  color: #000000;
+  border: 1px solid rgba(139, 139, 139, 0.3) !important;
+  border-radius: 20px !important;
+  transition: all 0.8s ease;
+}
+.glass-effect:hover {
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0 20px rgba(25, 255, 240, 0.488),
+    0 6px 15px rgba(254, 39, 39, 0.4) !important;
+
+  transform: translateY(-1px);
+}
+.glass-card:hover {
+  background-color: rgba(255, 255, 255, 0.111) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+.scrolled {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #b9e5ff, #ffffff, #ffe5e5);
+  background-size: 400% 400%;
+  animation: gradientMove 5s ease infinite;
+  backdrop-filter: blur(10px);
+  -webkit-animation: gradientMove 5s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
